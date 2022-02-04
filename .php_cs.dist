@@ -1,7 +1,0 @@
-<?php
-
-return Baijunyao\PhpCsFixer\Config::create()
-    ->setFinder(
-        PhpCsFixer\Finder::create()->in(__DIR__)
-    )
-;

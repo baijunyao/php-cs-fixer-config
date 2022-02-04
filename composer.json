@@ -11,7 +11,8 @@
     ],
     "require": {
         "php": ">=7.2.0",
-        "friendsofphp/php-cs-fixer": "^2.16"
+        "adamwojs/php-cs-fixer-phpdoc-force-fqcn": "^2.0",
+        "friendsofphp/php-cs-fixer": "^3.5"
     },
     "autoload": {
         "psr-4": {
@@ -23,6 +24,9 @@
         "sort-packages": true
     },
     "scripts": {
-        "phpcs": "vendor/bin/php-cs-fixer fix"
+        "phpcs": "vendor/bin/php-cs-fixer fix",
+        "lint": [
+            "composer phpcs"
+        ]
     }
 }
