@@ -1,5 +1,5 @@
 {
-    "name": "baijunyao/php-cs-rules",
+    "name": "baijunyao/php-cs-fixer-config",
     "description": "Custom PHP CS Fixer",
     "type": "library",
     "license": "MIT",
