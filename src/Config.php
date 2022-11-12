@@ -83,6 +83,7 @@ class Config extends BaseConfig
                 'single_trait_insert_per_statement'             => false,
                 'ordered_traits'                                => false,
                 'AdamWojs/phpdoc_force_fqcn_fixer'              => true,
+                'global_namespace_import'                       => ['import_classes' => true, 'import_constants' => true, 'import_functions' => true],
             ]);
     }
 }
