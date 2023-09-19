@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": ">=7.2.0",
+        "php": "^7.2|^8.0",
         "adamwojs/php-cs-fixer-phpdoc-force-fqcn": "^2.0",
         "friendsofphp/php-cs-fixer": "^3.5"
     },
